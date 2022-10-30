@@ -1,0 +1,13 @@
+###
+# MVC with URL route support
+###
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/local/api/index.php$
+  RewriteRule ^(.+)/?$ /local/api/index.php?route=$1 [L,QSA]
+  #RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>

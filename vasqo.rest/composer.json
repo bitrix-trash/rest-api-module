@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Vasqo\\Rest\\": "app/"
+    }
+  },
+  "require": {
+    "rakit/validation": "^1.4",
+    "vasqo/logger": "^1.0",
+    "webpractik/bitrixoa": "^1.1"
+  }
+}

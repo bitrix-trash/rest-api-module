@@ -1,0 +1,14 @@
+.vasqo_rest_icon {
+    background: url(/bitrix/images/vasqo.rest/icon.png) no-repeat center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    margin-left: -5px !important;
+}
+
+#global_menu_vasqo > .adm-main-menu-item-icon {
+    background: url(/bitrix/images/vasqo.rest/main-logo.png) no-repeat 50% 55%;
+    width: 80%;
+    margin: 0 auto;
+    background-size: contain;
+}
