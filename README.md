@@ -8,4 +8,5 @@
 
 Для того, что бы что-то изменять - нужно склонировать репозиторий, прописать команды 
 1. cd vasqo.rest && composer install
-2. 
+2. cd vasqo.rest/install/components/vasqo/documentation/templates/.default && npm install
+
